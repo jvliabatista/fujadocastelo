@@ -1,0 +1,69 @@
+
+
+.html {
+    scroll-behavior: smooth;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Add some content at the bottom of the page */
+.content {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: calc(100% - 60px);
+  padding: 30px;
+}
+
+  h1{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: 'UnifrakturMaguntia', cursive;
+      font-size: clamp(2.5rem, 10vw, 5rem);
+  }
+
+  p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 2rem;
+  }
+
+  a:link, a:visited {
+            position: absolute;
+            background-color: #f1f1f1;
+            color: black;
+            font-size: 1.5rem;
+            padding:14px 30px;
+            margin-top: 1rem;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
